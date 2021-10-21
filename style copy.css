@@ -73,11 +73,18 @@ div.ex-5-square:active {
 }
 /* es:7 */
 .ex-7-img {
-    width: 500px;
     transition: filter 2s;
 }
 .ex-7-img:hover {
-    filter: sepia(0.8);
+    filter: saturate(0.2) sepia(0.5);
+}
+/* es:8 */
+.ex-8-img {
+    transition: border-radius 2s, filter 2s;
+}
+.ex-8-img:hover {
+    border-radius: 25px;
+    filter:  sepia(0.8);
 }
 .ex-9-img {
     margin: 50px 100px;
