@@ -111,9 +111,15 @@ div.ex-5-square:active {
         transform: rotate(360deg);
     }
 }
+
+/* es:11 */
 .ex-11-icon {
     font-size: 60px;
+    transition: animation 1s;
+    animation: rotate 1;
 }
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
