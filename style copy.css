@@ -10,13 +10,19 @@ div.ex-1-square:hover {
     background-color: red;
 }
 
-
-
+/* esercizio 2 */
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: width 2s;;
 }
+
+div.ex-2-square:hover {
+    width: 100%;
+}
+
+
 .ex-3-square {
     width: 100px;
     height: 100px;
