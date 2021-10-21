@@ -39,7 +39,14 @@ div.ex-3-square:hover {
     width: 100px;
     height: 100px;
     background: red;
+    transition: background 2s;
 }
+
+div.ex-4-square:hover {
+    background: none;
+}
+
+/* esercizio 5 */
 .ex-5-square {
     margin: 20px;
     width: 60px;
